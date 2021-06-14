@@ -48,6 +48,11 @@ public class Rectangle {
 			return false;
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [width=" + width + ", height=" + height + "]";
+	}
 	
 	
 	
